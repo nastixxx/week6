@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        .hd{
+background-color: blue;
+grid-column: 1/4;
+        }
+        .as{
+background-color: blueviolet;
+        }
+        .ma{
+background-color: brown;
+        }
+        .fo{
+background-color: bisque;
+grid-column: 1/4;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+grid-template-rows: 10% 1fr 10%;
+height: 90vh;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+    <header class="hd">название логотип</header>
+    <aside class="as">yyy</aside>
+    <main class="ma">основной контент</main>
+    <footer class="fo">футер</footer>
+    </div>
+</body>
+</html>
